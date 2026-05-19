@@ -9,7 +9,7 @@ Video frames are buffered into 16-frame clips → passed through `AccidentTransf
 | Output | Condition |
 |---|---|
 | ✅ Normal | Low accident count in prediction buffer |
-| ⚠️ Collision Risk | Moderate anomaly signals detected |
+| ⚠️ congestion/sudden stopping | Moderate anomaly signals detected |
 | 🚨 Accident Detected | High confidence + sustained anomaly count |
 
 ## Project Structure
